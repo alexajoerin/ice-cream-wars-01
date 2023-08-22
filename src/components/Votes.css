@@ -1,0 +1,40 @@
+.Votes {
+  margin-left: 10px;
+}
+
+.Votes h2 {
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.Votes button {
+  background-color: #0e3c7e;
+  color: white;
+  border-radius: 3px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.Votes button:active {
+  background-color: #1e60a9;
+}
+
+.Votes button:disabled {
+  background-color: gray;
+}
+
+.ChocolateVotes .GraphBar {
+  background-color: #4f2c2c;
+  height: 20px;
+}
+
+.VanillaVotes .GraphBar {
+  background-color: #cbc0ac;
+  height: 20px;
+}
+
+.StrawberryVotes .GraphBar {
+  background-color: #de8c91;
+  height: 20px;
+}
